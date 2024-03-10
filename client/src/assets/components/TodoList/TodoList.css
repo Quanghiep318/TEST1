@@ -1,0 +1,23 @@
+.todo-list {
+    background-color: rgba(255, 255, 255, 0.4);
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    padding: 10px 50px;
+    margin-bottom: 5px;
+  }
+  
+  .list-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+  
+    cursor: pointer;
+  }
+  
+  .list-icon input {
+    accent-color: white;
+  }
